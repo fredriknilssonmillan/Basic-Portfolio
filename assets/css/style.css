@@ -114,8 +114,9 @@ p {
 }
 
 footer {
-    box-align: bottom;
+    /*vertical-align: bottom;  --no me sale lo de ponerlo abajo, bucar la sintaxis correcta--*/
     background-color: #666666;
+    margin-top:60px;
     height: 50px;
     padding-top: 24px;
     color: #c5c4c4;
@@ -128,9 +129,6 @@ footer {
     margin: auto;
 }
 
-footer {
-    margin-top:60px;
-}
 
 .info {
     width: 912px;
@@ -154,6 +152,17 @@ form {
     Margin-right: 24px;
 }
 
+#submit:hover {
+    background-color: #666666;
+}
+
+#submit:active {
+    background-color: #4aaaa5;
+    font-weight: bold;
+    touch-action: pan-x; 
+    transition: all 3s ease;
+}
+
 a:hover {
     font-style: italic;
     font-weight: bolder;
@@ -161,6 +170,7 @@ a:hover {
     color: #ffffff;
     transition: all .5s ease;
 }
+
 a:link  {
     color: #777777;
     text-decoration: none;
@@ -253,4 +263,13 @@ img:not(#fotoperfil) {
     top: 630px;
     left: 0px;
     z-index: 2;
+}
+
+#inforeceived {
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #4aaaa5;
 }
