@@ -29,11 +29,6 @@ article {
     background-color: #ffffff;
 }
 
-img {
-    width:200px; /* you can use % */
-    height: auto;
-}
-
 #tab {
     float: left;
     color: #ffffff;
@@ -107,6 +102,8 @@ nav {
     float: left;
     margin-right: 22px;
     margin-left: 22px;
+    width:200px; /* you can use % */
+    height: auto;
 }
 
 p {
@@ -123,7 +120,7 @@ footer {
     padding-top: 24px;
     color: #c5c4c4;
     font-size: 13px;
-    border-top: 8px solid #4aaaa5
+    border-top: 8px solid #4aaaa5;
 }
 
 #getthosedamnmargins {
@@ -161,7 +158,7 @@ a:hover {
     font-style: italic;
     font-weight: bolder;
     background-color: #d6fcfafd;
-    color: white;
+    color: #ffffff;
     transition: all .5s ease;
 }
 a:link  {
@@ -175,3 +172,85 @@ a:visited {
     text-decoration: none;
     font-weight: normal;
   }
+
+img:not(#fotoperfil) {
+    width:280px; /* you can use % */
+    height: auto;
+    margin-right: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+.fotos {
+    margin-left: 22px;
+    margin-bottom: 30px;
+    height: 730px;
+    position: relative;
+}
+
+#imagen1 {
+    top: 0px;
+    left: 0px;
+}
+
+#imagen2 {
+    top: 0px;
+    left: 320px;
+}
+
+#imagen3 {
+    top: 250px;
+    left: 0;
+}
+
+#imagen4 {
+    top: 250px;
+    left: 320px;
+}
+
+#imagen5 {
+    top: 500px;
+    left: 0px;
+}
+
+.leyendas {
+    margin-left: 0px;
+    width:280px;
+    height:50px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-right: 25px;
+    position: absolute;
+}
+
+#leyenda1 {
+    top: 130px;
+    left: 0px;
+    z-index: 2;
+}
+
+#leyenda2 {
+    top: 130px;
+    left: 320px;
+    z-index: 2;
+}
+
+#leyenda3 {
+    top: 380px;
+    left: 0px;
+    z-index: 2;
+}
+
+#leyenda4 {
+    top: 380px;
+    left: 320px;
+    z-index: 2;
+}
+
+#leyenda5 {
+    top: 630px;
+    left: 0px;
+    z-index: 2;
+}
