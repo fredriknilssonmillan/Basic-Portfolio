@@ -65,6 +65,7 @@ h2 {
     border-width: thin;
     padding-right: 9px;
     text-align: right;
+    font-weight: normal;
 }
 
 #navmiddle {
@@ -72,6 +73,7 @@ h2 {
     float: left;
     text-align: center;
     padding: 0px 9px;
+    font-weight: normal;
 }
 
 
@@ -84,13 +86,7 @@ h2 {
     border-width: thin;
     padding-left: 9px;
     text-align: left;
-}
-
-#navright:hover {
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    transition: all 1s ease;
+    font-weight: normal;
 }
 
 nav {
@@ -160,3 +156,22 @@ form {
     margin-left: 22px;
     Margin-right: 24px;
 }
+
+a:hover {
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #d6fcfafd;
+    color: white;
+    transition: all .5s ease;
+}
+a:link  {
+    color: #777777;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  
+a:visited {
+    color: #777777;
+    text-decoration: none;
+    font-weight: normal;
+  }
